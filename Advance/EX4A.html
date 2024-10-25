@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4: Function Pipeline</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f9fc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Container Box */
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+        }
+
+        /* Input Field */
+        input {
+            padding: 12px;
+            margin: 15px 0;
+            border: 1px solid #dcdcdc;
+            border-radius: 8px;
+            width: 90%;
+            font-size: 16px;
+        }
+
+        /* Button Styling */
+        button {
+            padding: 12px 25px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #1d6fa5;
+        }
+
+        /* Result Display */
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+
+        /* Navigation Links */
+        .nav-links {
+            margin-top: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #3498db;
+            margin: 0 10px;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #1d6fa5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Function Pipeline</h1>
+        <input type="number" id="inputValue" placeholder="Enter a number" />
+        <button onclick="executePipeline()">Run Pipeline</button>
+        <div id="result">Result: </div>
+
+        <!-- Navigation Links -->
+        <div class="nav-links">
+            <a href="./EX5A.html">Next</a>
+            <br><a href="../HomePageAd.html">Back to main page</a>
+        </div>
+    </div>
+
+    <script src="./EX4A.js"></script>
+</body>
+</html>

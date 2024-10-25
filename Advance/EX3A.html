@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop UI</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+
+        .box {
+            width: 150px;
+            height: 150px;
+            border: 2px dashed #aaa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f0f0f0;
+        }
+
+        .draggable {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: move;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Drag and Drop UI Example</h1>
+    <div class="container">
+        <div class="box" id="box1" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <p>Drop Here</p>
+        </div>
+        <div class="box" id="box2" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <p>Drop Here</p>
+        </div>
+    </div>
+
+    <div class="draggable" id="drag1" draggable="true" ondragstart="drag(event)">
+        Drag Me
+    </div>
+
+    <script src="./EX3A.js"></script>
+</body>
+<br><a href="./EX4A.html">Next</a>
+<br><a href="../HomePageAd.html">Back to main page</a>
+</html>
