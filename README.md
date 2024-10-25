@@ -3,7 +3,7 @@
 This repository contains beginner-level JavaScript exercises designed to help improve problem-solving and programming skills. The project provides an interactive web interface to easily access various exercises through hyperlinks. 
 
 ## Project Overview  
-This project includes a **homepage for JavaScript exercises** with links to individual tasks such as summing numbers, reversing strings, and checking for palindromes. Each exercise is accessible through the web interface, making it easy to navigate and test different JavaScript concepts.
+This project includes a **homepage for JavaScript exercises** linked to **individual main page for the 3 level** and with links to individual tasks such as summing numbers, reversing strings, and checking for palindromes. Each exercise is accessible through the web interface, making it easy to navigate and test different JavaScript concepts.
 
 The homepage is styled with a **background image**, and all exercises are neatly listed within a card-like container for better readability.
 
